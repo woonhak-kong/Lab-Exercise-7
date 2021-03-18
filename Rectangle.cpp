@@ -46,6 +46,7 @@ void Rectangle::setWidth(float width)
 	{
 		std::cout << "Width must be more than 0 !!\n";
 		std::cout << "Width will be default value 1\n";
+		m_width = 1;
 		return;
 	}
 	m_width = width;
@@ -57,6 +58,7 @@ void Rectangle::setLength(float length)
 	{
 		std::cout << "Length must be more than 0 !!\n";
 		std::cout << "Length will be default value 1\n";
+		m_length = 1;
 		return;
 	}
 	m_length = length;
